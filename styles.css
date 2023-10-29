@@ -59,6 +59,13 @@ a {
     color: #00d9ff;
 }
 
+a img {
+    pointer-events: none;
+    text-decoration: none;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
 img {
     max-width: 100%;
     height: auto;
