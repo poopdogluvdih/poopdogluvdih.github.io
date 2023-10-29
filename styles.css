@@ -1,6 +1,6 @@
 body {
     font-family: Arial;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     background-color: #306491;
 }
@@ -14,8 +14,8 @@ body {
 
 .絵文字 {
     display: inline !important;
-    width: 32px !important;
-    height: 32px !important;
+    width: 24px !important;
+    height: 24px !important;
     image-rendering: pixelated;
 }
 
