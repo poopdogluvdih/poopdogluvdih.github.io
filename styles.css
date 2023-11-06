@@ -5,11 +5,13 @@ body {
     background-color: #171c24;
 }
 
-#audrna {
+.audrna {
     background-color: #122c43;
     color: #5ECCE8;
-    padding: 3px 8px;
+    padding: 3px 6px;
     border-radius: 5px;
+    font-weight: bold;
+    cursor: n-resize;
 }
 
 .絵文字 {
