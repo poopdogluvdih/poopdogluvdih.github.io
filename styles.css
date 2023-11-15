@@ -1,7 +1,11 @@
+:root {
+    --text-color: #e6e6e6;
+}
+
 body {
     font-family: Arial;
     font-size: 20px;
-    color: #e6e6e6;
+    color: var(--text-color);
     background-color: #171c24;
 }
 
@@ -67,6 +71,11 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+a.hidden-link {
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 a img {
