@@ -79,7 +79,6 @@ a.hidden-link {
 }
 
 a img {
-    pointer-events: none;
     text-decoration: none;
     margin-left: 6px;
     margin-right: 6px;

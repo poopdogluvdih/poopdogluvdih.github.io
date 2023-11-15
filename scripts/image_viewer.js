@@ -26,6 +26,12 @@ function setOnImageClicked()
     const images = [...document.getElementsByTagName("img")];
     for (let i = 0; i < images.length; i++)
     {
+        // Don't set modal image viewer if the image's parent element is an <a> element
+        if (images[i].parentNode.nodeName == 'A')
+        {
+            continue;
+        }
+
         images[i].onclick = (event) => {
             onImageClicked(event.target);
         };
