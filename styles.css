@@ -1,7 +1,7 @@
 body {
     font-family: Arial;
     font-size: 20px;
-    color: white;
+    color: #e6e6e6;
     background-color: #171c24;
 }
 
@@ -54,6 +54,10 @@ body {
     border-style: solid;
     border-width: 1px;
     border-color: white;
+}
+
+h1 {
+    color: white;
 }
 
 a {
