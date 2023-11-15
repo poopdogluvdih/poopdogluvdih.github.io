@@ -18,7 +18,6 @@ body {
     display: inline !important;
     width: 24px !important;
     height: 24px !important;
-    image-rendering: pixelated;
 }
 
 .block {
@@ -58,7 +57,12 @@ body {
 }
 
 a {
-    color: #00d9ff;
+    color: #3EC5FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 a img {
