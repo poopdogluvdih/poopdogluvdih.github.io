@@ -27,6 +27,7 @@ body {
     width: 24px !important;
     height: 24px !important;
     border-radius: 0px !important;
+    vertical-align: middle;
 }
 
 .block {
@@ -91,6 +92,7 @@ h1 {
 }
 
 h2 {
+    color: white;
     font-size: 120%;
 }
 
@@ -120,4 +122,10 @@ img {
     border-radius: 8px;
     user-select: none;
     cursor: pointer;
+}
+
+ul.line-list, ol.line-list {
+    list-style-type: none;
+    padding: 0;
+    line-height: 40px;
 }
