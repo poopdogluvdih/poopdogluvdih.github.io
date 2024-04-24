@@ -1,8 +1,9 @@
+""" A python script to update the #song section (My latest song addiction) in index.html """
+
 from datetime import datetime
 from sys import argv
 
-TEMPLATE: str = """
-      <article id="song" class="block">
+TEMPLATE: str = """<article id="song" class="block">
       <h1>My latest song addiction</h1>
       <br />
       <div style="display: flex; justify-content: center">
@@ -20,8 +21,8 @@ TEMPLATE: str = """
       <p style="text-align: center; color: #d1d1d1; font-style: italic">
         Last Update: {timestamp}
       </p>
-    </article>
-"""
+    </article>"""
+
 
 def main() -> None:
 
@@ -39,8 +40,19 @@ def main() -> None:
         url = argv[1]
     url = convert_url(url)
 
+    # Create the new html code for the #song section
     html_block: str = TEMPLATE.format(url=url, timestamp=timestamp)
-    print(html_block)
+
+    # Overwrite index.html
+    with open("index.html", "r+", encoding="utf8") as f:
+        text: str = f.read()
+        new_text: str = overwrite_songs_block(text, html_block)
+
+        f.seek(0)
+        f.write(new_text)
+        f.truncate()
+
+    print(f"Updated index.html! - {timestamp}")
 
 
 def convert_url(url: str) -> str:
@@ -53,8 +65,19 @@ def convert_url(url: str) -> str:
         url = EMBED_LINK + url
         return url
 
+    elif url.startswith(EMBED_LINK):
+        return url
+
     else:
         raise ValueError("To ensure no errors, please use YouTube's Share button to get the URL of the video.")
+
+
+def overwrite_songs_block(html: str, new_songs_block: str) -> str:
+
+    start: int = html.find('<article id="song" class="block">')
+    end:   int = html.find("</article>", start) + len("</article>")
+
+    return html[0:start] + new_songs_block + html[end:]
 
 
 if __name__ == "__main__":
