@@ -28,7 +28,8 @@ def main() -> None:
 
     # Get the timestamp of right now
     time: datetime = datetime.now()
-    timestamp: str = time.strftime("%Y, %B %d (%H:%M) %z")
+    timezone: str = "UTC+8" # Replace this if needed
+    timestamp: str = time.strftime("%Y, %B %d (%H:%M)") + f" {timezone}"
 
     # Get url
     url: str
