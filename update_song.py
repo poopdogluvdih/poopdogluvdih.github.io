@@ -35,11 +35,15 @@ def main() -> None:
     url: str
     if len(argv) != 2:
         # URL not found in args
-        url = input("Song URL: ")
+        url = input("Song URL:    ")
     else:
         # URL is in args
         url = argv[1]
     url = convert_url(url)
+
+    # Prompt for other data
+    artist: str = input("Artist Name: ").strip()
+    title:  str = input("Song Title:  ").strip()
 
     # Create the new html code for the #song section
     html_block: str = TEMPLATE.format(url=url, timestamp=timestamp)
@@ -54,6 +58,7 @@ def main() -> None:
         f.truncate()
 
     print(f"Updated index.html! - {timestamp}")
+    print(f"Update song addiction to {artist} [ {title} ]")
 
 
 def convert_url(url: str) -> str:
