@@ -35,6 +35,14 @@ iframe {
   vertical-align: middle;
 }
 
+.大絵文字 {
+  display: inline !important;
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 0px !important;
+  vertical-align: middle;
+}
+
 .block {
   max-width: 727px;
   margin: 20px auto;
@@ -134,4 +142,18 @@ ol.line-list {
   list-style-type: none;
   padding: 0;
   line-height: 40px;
+}
+
+#platforms-icons {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+#platforms-icons a:hover {
+  text-decoration: none;
+  /* var(--link-color), thanks https://codepen.io/sosuke/pen/Pjoqqp */
+  filter: invert(63%) sepia(91%) saturate(1497%) hue-rotate(169deg)
+    brightness(103%) contrast(101%);
 }
