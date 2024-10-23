@@ -1,7 +1,13 @@
 
 /* Added by audrNa */
 
+/* Rounded borders */
 img, iframe {
-  border-radius: 8px
+  border-radius: 8px;
+}
+
+/* Responsiveness for iframes */
+iframe {
+  max-width: 100%;
 }
 
