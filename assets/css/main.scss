@@ -229,6 +229,9 @@
 {% endif %}
 
 {% if post_exist %}
+  // Added by audrNa
+  @import "post/media";
+
   {% if site.data.conf.posts.share_buttons == true %}
     @import "post/share";
   {% endif %}
