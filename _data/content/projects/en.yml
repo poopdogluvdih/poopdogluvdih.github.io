@@ -1,0 +1,58 @@
+# you can move this content to front matter of [language]/tabs/projects.md
+###########################################################
+#                Projects Page Data
+###########################################################
+page_data:
+  main:
+    header: "Projects"
+    info: "Here are my big projects that I like!"
+    tooltip: "Art by Krab"
+    text_color: "white"
+    # if you don't want to use background image, comment it. back_color will be activated.
+    img: ":projects-heading.jpg"
+    back_color: "lightblue"
+
+  category:
+    - title: "Game"
+      type: game
+      color: "#62b462"
+
+    - title: "Other"
+      type: other
+      color: "gray"
+
+
+  list:
+    # example
+    - type: game
+      project_name: "Voltaica"
+      project_excerpt: "A robot explores a weird ass laboratory"
+      img: ":voltaica.png"
+      img_title: "Voltaica Robodogs"
+      date: "2024-08-28"
+      url: "2024-08-28-Voltaica"
+
+    - type: other
+      project_name: "Nemene"
+      project_excerpt: "audr's personal bot"
+      img: ":mikotonikki.jpg"
+      img_title: "Mikoto Nikki"
+      date: "2024-02-22"
+      url: "2024-02-22-Nemene"
+
+    - type: game
+      project_name: "Cavebombs"
+      project_excerpt: "Classic minesweeper game"
+      img: ":cavebombs.png"
+      img_title: "Cavebombs"
+      date: "2023-11-22"
+      url: "2023-11-22-Cavebombs"
+
+    - type: game
+      project_name: "Nanosurge"
+      project_excerpt: "Robot surgery game"
+      img: ":nanosurge.jpg"
+      img_title: "Nanosurge"
+      date: "2022-08-06"
+      url: "2022-08-06-Nanosurge"
+
