@@ -41,9 +41,11 @@ img: ":home-heading.jpg"
 
 👋 You can call me **audr**.
 
-🛠️ I code to make stuff but I like making games for fun!
+🎮 Favorite games: Arknights, osu!, Honkai: Star Rail, Project Sekai, Phigros, Beatblock, Baba Is You, etc...
 
-🤓 My best skills are general programming, Godot Engine, and Python. I also have some experience with various fields such as C, JavaScript, Ubuntu, Jekyll, SQL, Flask, React, etc.
+🛠️ I also code to make stuff but I like making games for fun! (Check out my [projects](/tabs/projects) later!)
+
+🤓 My best skills are general programming, Godot Engine, and Python. I also have some experience with various fields such as C, JavaScript, Jekyll, SQL, Flask, React, etc.
 
 🚩 Currently studying programming and game design (more focus on this now) on my own, but school is slowing me down...
 
