@@ -119,5 +119,5 @@ sass:
 ###########################################################
 # Exclude these files or folders from production site
 ###########################################################
-exclude: ["Gemfile*", "vendor", ".github", ".vscode", "README*", "CODE_OF_CONDUCT.md", "LICENSE", "docs"]
+exclude: ["Gemfile*", "vendor", ".github", ".vscode", "README*", "CODE_OF_CONDUCT.md", "LICENSE", "docs", "test.ps1", "song.py"]
 
