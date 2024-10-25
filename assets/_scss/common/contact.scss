@@ -36,6 +36,11 @@
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+
+  /* Added by audrNa - go multiline if container is not wide enough */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: safe flex-start;
 }
 
 .contact-container > ul:hover {
