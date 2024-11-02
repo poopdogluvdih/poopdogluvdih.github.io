@@ -39,7 +39,7 @@ img: ":home-heading.jpg"
 
 # Hello, I'm `audrNa` !
 
-👋 You can call me **audr**.
+👋 You can call me **audr**. I'm a gamer and game developer!
 
 🎮 Favorite games: Arknights, osu!, Honkai: Star Rail, Project Sekai, Phigros, Beatblock, Baba Is You, etc...
 
