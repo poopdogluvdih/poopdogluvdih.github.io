@@ -1,6 +1,6 @@
 ---
 lng_pair: id_song_{id_number}
-title: Audr's Song Addiction &#35;{id_number}
+title: "Audr's Song Addiction #{id_number}"
 
 category: song addiction
 tags: [song, audrna]

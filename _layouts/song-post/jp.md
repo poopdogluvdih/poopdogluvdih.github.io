@@ -1,6 +1,6 @@
 ---
 lng_pair: id_song_{id_number}
-title: Audrのハマっている曲 &#35;{id_number}
+title: "Audrのハマっている曲 #{id_number}"
 
 category: song addiction
 tags: [song, audrna]
