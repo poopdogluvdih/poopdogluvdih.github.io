@@ -3,17 +3,27 @@
  * Licensed under MIT
 */
 
-/* Added by audrNa - Dark Theme: Background Gradient Color */
+/* Added by audrNa - Dark Theme Background */
 [data-color-scheme="dark"] #main-wrapper {
-  background: rgb(25,25,25)!important;
-  background: linear-gradient(90deg, rgba(25,25,25,1) 50%, rgba(0,42,60,1) 100%)!important;
+  // Original Gradient Color
+  // background: rgb(25,25,25)!important;
+  // background: linear-gradient(90deg, rgba(25,25,25,1) 50%, rgba(0,42,60,1) 100%)!important;
+
+  // Gradient with Animated Stars
+  background: radial-gradient(ellipse at center, #002a3c 0%, #090a0f 100%);
 }
 
 #main-wrapper {
   padding-left: var(--side-nav-width);
   transition: all 0.4s ease;
 
-  /* Added by audrNa - Light Theme: Background Gradient Color */
+  /* Added by audrNa  */
+
+  /* Needed for the animated stars to work i think */
+  height: 100%;
+  overflow: hidden;
+
+  /* Light Theme: Background Gradient Color */
   background: rgb(239,239,239);
   background: linear-gradient(90deg, rgba(239,239,239,1) 50%, rgba(219,244,255,1) 100%);
 }

@@ -42,6 +42,15 @@ layout: util/compress
       {%- include post/table-of-contents.html -%}
     {%- endif -%}
     <div id="main-wrapper">
+	  {%- comment -%}
+	    Added by audrNa - Animated Stars
+	  {%- endcomment -%}
+	  <div>
+	    <div id="stars1"></div>
+	    <div id="stars2"></div>
+	    <div id="stars3"></div>
+	  </div>
+
       <div class="main-container">
         {%- assign returned_content = content %}
         {%- comment -%} fix for tables. {%- endcomment -%}

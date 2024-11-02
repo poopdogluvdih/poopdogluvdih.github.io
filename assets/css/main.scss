@@ -39,6 +39,9 @@
 
 @import "default/multipurpose-container";
 
+/* Added by audrNa */
+@import "default/stars-background";
+
 @import "default/footer";
 {% if site.data.conf.main.main_fixed_footer and site.data.conf.main.main_footer %}
   @import "default/footer-fixed-ext";
