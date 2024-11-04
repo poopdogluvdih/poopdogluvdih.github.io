@@ -41,7 +41,7 @@ img: ":home-heading.jpg"
 
 👋 You can call me **audr**. I'm a gamer and game developer!
 
-🎮 Favorite games: Arknights, osu!, Honkai: Star Rail, Project Sekai, Phigros, Beatblock, Baba Is You, etc...
+🎮 Favorite games: Arknights, osu!, Honkai: Star Rail, CHUNITHM, Project Sekai, Phigros, Beatblock, Baba Is You, etc...
 
 🛠️ I also code to make stuff but I like making games for fun! (Check out my [projects](/tabs/projects) later!)
 
