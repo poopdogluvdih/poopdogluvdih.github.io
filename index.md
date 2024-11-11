@@ -39,17 +39,22 @@ img: ":home-heading.jpg"
 
 # Hello, I'm `audrNa` !
 
-👋 You can call me **audr**. I'm a gamer and game developer!
+![👋](:wave.svg){:width="16"} You can call me **audr**. I'm a gamer and game developer!
 
-🎮 Favorite games: Arknights, osu!, Honkai: Star Rail, CHUNITHM, Project Sekai, Phigros, Beatblock, Baba Is You, etc...
+![🎮](:gaming.svg){:width="16"} Favorite games: Arknights, osu!, Honkai: Star Rail, CHUNITHM, Project Sekai, Phigros, Beatblock, Baba Is You, etc...
 
-🛠️ I also code to make stuff but I like making games for fun! (Check out my [projects](/tabs/projects) later!)
+![🛠️](:wrench.svg){:width="16"} I also code to make stuff but I like making games for fun! (Check out my [projects](/tabs/projects) later!)
 
-🤓 My best skills are general programming, Godot Engine, and Python. I also have some experience with various fields such as C, JavaScript, Jekyll, SQL, Flask, React, etc.
+![🤓](:nerdge.svg){:width="16"} My best skills are general programming, Godot Engine, and Python. I also have some experience with various fields such as C, JavaScript, Jekyll, SQL, Flask, React, etc.
 
-🚩 Currently studying programming and game design (more focus on this now) on my own, but school is slowing me down...
+![🚩](:flag.svg){:width="16"} Currently studying programming and game design (more focus on this now) on my own, but school is slowing me down...
 
 <hr>
 
 [Heading art by kieed](https://www.pixiv.net/en/artworks/118314218){:target="\_blank"}
+
+
+{%- comment -%}
+	Credits: https://github.com/googlefonts/noto-emoji
+{%- endcomment -%}
 
