@@ -51,6 +51,9 @@ audrNaの自己紹介は[ホームページ](/ja)にありますが、以下は�
 [フィリピン人](https://ja.wikipedia.org/wiki/%E5%9C%B0%E7%8D%84){:style="color: var(--body-text-color) !important;"}
 (![why](:why.png){:width="32"})
 
+- <i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
+独身
+
 <hr>
 
 [絵：annieWilump](https://twitter.com/annieWilump/status/1791188839156883482){:target="_blank"}

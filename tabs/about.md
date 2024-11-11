@@ -51,6 +51,9 @@ My introduction can be found in the [Home page](/), but below is some personal i
 [Filipino](https://en.wikipedia.org/wiki/Hell){:style="color: var(--body-text-color) !important;"}
 (![why](:why.png){:width="32"})
 
+- <i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
+Single
+
 <hr>
 
 [Art by annieWilump](https://twitter.com/annieWilump/status/1791188839156883482){:target="_blank"}
