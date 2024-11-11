@@ -3,6 +3,7 @@
 # Run with `python3 song.py`
 
 from datetime import datetime
+from typing import Any
 import requests
 
 EN_POST_PATH: str = "_posts/"
@@ -18,11 +19,14 @@ def main() -> None:
 	count: int
 	with open(DATA_FILE_PATH, "r", encoding="utf-8") as data_file:
 		count = int(data_file.read().replace("count: ", ""))
+	count += 1
 
 	print("----- Song Addiction Post #%s -----" % count)
 	youtube_url: str = input("YouTube URL: ")
 	artist_name: str = input("Artist Name: ")
 	song_title:  str = input("Song Title:  ")
+	en_memo:     str = input("[EN] Memo:   ").strip()
+	jp_memo:     str = input("[JP] Memo:   ").strip()
 
 	video_id: str = get_video_id(youtube_url)
 	thumbnail_path: str = download_thumbnail(video_id)
@@ -35,22 +39,23 @@ def main() -> None:
 	jp_filename = JP_POST_PATH + filename
 	write_post(
 		EN_TEMPLATE_PATH, en_filename,
-		count, thumbnail_path,
-		video_id, artist_name, song_title
+		count, thumbnail_path, video_id,
+		artist_name, song_title, en_memo
 	)
 	write_post(
 		JP_TEMPLATE_PATH, jp_filename,
-		count, thumbnail_path,
-		video_id, artist_name, song_title
+		count, thumbnail_path, video_id,
+		artist_name, song_title, jp_memo
 	)
 
-	print("Written new posts: ")
+	print("\nWritten new posts: ")
 	print(en_filename)
 	print(jp_filename)
+	print("\nPost Song Addiction #%s" % count)
 
 	# Increment count
 	with open(DATA_FILE_PATH, "w", encoding="utf-8") as data_file:
-		data_file.write("count: %s" % (count + 1))
+		data_file.write("count: %s" % count)
 
 
 def get_video_id(url: str) -> str:
@@ -105,22 +110,32 @@ def download_thumbnail(video_id: str) -> str:
 
 def write_post(
 	template_path: str, output_path: str, id_number: int,
-	thumbnail_path: str, video_id: str,
-	artist_name: str, song_title: str
+	thumbnail_path: str, video_id: str, artist_name: str,
+	song_title: str, memo: str = ""
     ) -> None:
 
 	date: str = now.strftime("%Y-%m-%d %H:%M:%S +0800")
 
 	with open(template_path, "r", encoding="utf-8") as template_file:
 		with open(output_path, "w", encoding="utf-8") as output_file:
-			output_file.write(template_file.read().format(
+			output_file.write(format(template_file.read(),
 				id_number=id_number,
 				thumbnail_filename=thumbnail_path,
 				date=date,
 				video_id=video_id,
 				artist_name=artist_name,
-				song_title=song_title
+				song_title=song_title,
+				memo=memo
 			))
+
+
+def format(text: str, **keys: Any) -> str:
+	formatted_text: str = text
+	for key in keys:
+		curled_key: str = "{%s}" % key
+		value: str = str(keys[key])
+		formatted_text = formatted_text.replace(curled_key, value)
+	return formatted_text
 
 
 if __name__ == "__main__":

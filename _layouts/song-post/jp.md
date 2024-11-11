@@ -12,9 +12,15 @@ date: {date}
 image_viewer_on: true
 image_lazy_loader_on: true
 
+memo: "{memo}"
+
 ---
 
-> この日、audrはこの曲にとてもハマっていました。
+<!-- outline-start -->
+#### {song_title} / {artist_name}
+<!-- outline-end -->
+
+> この日、Audrはこの曲にとてもハマっていました。
 
 <iframe
   width="560"
@@ -28,11 +34,11 @@ image_lazy_loader_on: true
   data-align="center"
 ></iframe>
 
+{% if page.memo != "" %}
 <hr>
 
-#### 曲名とアーティスト
+#### Audrのメモ
 
-<!-- outline-start -->
-{song_title} / {artist_name}
-<!-- outline-end -->
+{{ page.memo }}
+{% endif %}
 

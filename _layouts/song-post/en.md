@@ -12,9 +12,15 @@ date: {date}
 image_viewer_on: true
 image_lazy_loader_on: true
 
+memo: "{memo}"
+
 ---
 
-> On this day, audr was vibing very hard to this song.
+<!-- outline-start -->
+#### {song_title} / {artist_name}
+<!-- outline-end -->
+
+> On this day, Audr was vibing very hard to this song.
 
 <iframe
   width="560"
@@ -28,11 +34,11 @@ image_lazy_loader_on: true
   data-align="center"
 ></iframe>
 
+{% if page.memo != "" %}
 <hr>
 
-#### Song Title and Artist
+#### Audr's Memo
 
-<!-- outline-start -->
-{song_title} / {artist_name}
-<!-- outline-end -->
+{{ page.memo }}
+{% endif %}
 
