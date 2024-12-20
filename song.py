@@ -24,10 +24,13 @@ def main() -> None:
 	print("----- Song Addiction Post #%s -----" % count)
 	youtube_url: str = input("YouTube URL: ")
 	artist_name: str = input("Artist Name: ")
-	song_title:  str = input("Song Title:  ")
+	en_title:    str = input("[EN] Title:  ")
+	jp_title:    str = input("[JP] Title:  ")
 	en_memo:     str = input("[EN] Memo:   ").strip()
 	jp_memo:     str = input("[JP] Memo:   ").strip()
 
+	en_title = en_title or jp_title
+	jp_title = jp_title or en_title
 	video_id: str = get_video_id(youtube_url)
 	thumbnail_path: str = download_thumbnail(video_id)
 
@@ -40,12 +43,12 @@ def main() -> None:
 	write_post(
 		EN_TEMPLATE_PATH, en_filename,
 		count, thumbnail_path, video_id,
-		artist_name, song_title, en_memo
+		artist_name, en_title, en_memo
 	)
 	write_post(
 		JP_TEMPLATE_PATH, jp_filename,
 		count, thumbnail_path, video_id,
-		artist_name, song_title, jp_memo
+		artist_name, jp_title, jp_memo
 	)
 
 	print("\nWritten new posts: ")
