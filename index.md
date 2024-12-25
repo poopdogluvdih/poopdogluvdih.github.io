@@ -39,7 +39,7 @@ img: ":home-heading.jpg"
 
 # Hello, I'm `audrNa` !
 
-![👋](:wave.svg){:width="16"} You can call me **Audr**. I'm a gamer and game developer!
+![👋](:wave.svg){:width="16"} You can call me **Audr**. I'm a gamer and programmer!
 
 ![🎮](:gaming.svg){:width="16"} Favorite games: Arknights, osu!standard, Honkai: Star Rail, CHUNITHM, Project Sekai, Phigros, Beatblock, Baba Is You, etc...
 
