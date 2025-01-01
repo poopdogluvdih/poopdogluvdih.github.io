@@ -54,6 +54,28 @@ audrNaの自己紹介は[ホームページ](/ja)にありますが、以下は�
 - <i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
 独身
 
+- <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;
+[〒 -99.9 Neptune St., Banana Village, Christmas Island, Kiribati](https://maps.app.goo.gl/5ksLJAGQHwkC4Toh6){:target="\_blank"}{:style="color: var(--body-text-color) !important;"}
+
+- <i class="fa fa-globe" aria-hidden="true"></i>&nbsp;
+<a id="ip-address"></a>{:style="color: var(--body-text-color) !important;"}
+<script>
+	function rng(min, max) { return Math.floor(Math.random() * (max - min + 1) ) + min }
+	function n() { return rng(0, 255) }
+	let ip = `${n()}.${n()}.${n()}.${n()}`
+	let href = `https://whatismyipaddress.com/ip/${ip}`
+	let anchor = document.getElementById("ip-address")
+	anchor.innerText = ip
+	anchor.href = href
+	anchor.target = "_blank"
+</script>
+
+- <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
+[+1 949-468-2750](tel:+19494682750){:style="color: var(--body-text-color) !important;"}
+
+- <i class="fa fa-user" aria-hidden="true"></i>&nbsp;
+名前： 麤鬱 廳禰（あうどる）
+
 <hr>
 
 [絵：annieWilump](https://twitter.com/annieWilump/status/1791188839156883482){:target="_blank"}
