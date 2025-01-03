@@ -90,7 +90,8 @@ def get_filename(count: int) -> str:
 def download_thumbnail(video_id: str) -> str:
 	""" Downloads the thumbnail of the video and returns the file name in POSTS_ASSETS_PATH in this project """
 
-	sizes: list[str] = ["maxresdefault", "sddefault", "hqdefault", "mqdefault", "default"]
+	# sizes: list[str] = ["maxresdefault", "sddefault", "hqdefault", "mqdefault", "default"]
+	sizes: list[str] = ["hqdefault", "mqdefault", "default", "maxresdefault", "sddefault"]
 
 	thumbnail: bytes = b""
 	for size in sizes:
