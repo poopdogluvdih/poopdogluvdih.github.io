@@ -43,7 +43,7 @@ img: ":home-heading.jpg"
 
 ![🇯🇵](:japan.png){:width="16"}&nbsp;&nbsp;私はボカロと日本の音楽がとても大好きなので、日本語を勉強中です。まだ得意ではないけれど、頑張ります！
 
-![🎮](:gaming.svg){:width="16"} 好きなゲーム：アークナイツ、osu!standard、崩壊：スターレイル、CHUNITHM、プロジェクトセカイ、Phigros、Beatblock、Baba Is Youなど…
+![🎮](:gaming.svg){:width="16"} 好きなゲーム：アークナイツ、osu!standard、崩壊：スターレイル、CHUNITHM、maimai、プロジェクトセカイ、Phigros、vivid/stasis、Baba Is Youなど…
 
 ![🛠️](:wrench.svg){:width="16"} 色々作るためにプログラミングしていますが、楽しいのでゲームを作るのが好きです！（後で[プロジェクト](/ja/tabs/projects)を見てくださいね）
 
