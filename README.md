@@ -1,4 +1,4 @@
-## audrNa's personal website
+## Audrnya's personal website
 
 This is just a personal website to display my projects, information about me, etc.
 

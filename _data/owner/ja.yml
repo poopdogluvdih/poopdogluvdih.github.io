@@ -2,18 +2,18 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "audrNa"
+brand: "Audrnya"
 
 # text below the brand name
-brand_sub_text: "ゲームを作ってます"
+brand_sub_text: "プログラミングしてます"
 
 # used for seo meta post author (if it's not defined in post)
-name: "audrNa"
+name: "Audrnya"
 
 # home page top header texts
 home:
   # you can also use $site_brand, $site_greetings, $site_welcome in line1 and line2 for replacing texts.
-  top_header_line1: "audrNaのサイトへ"
+  top_header_line1: "あうどるのサイトへ"
   # if commented, top header will be a single line
   top_header_line2: "ようこそ！"
 
@@ -42,15 +42,15 @@ creative_commons:
 # seo meta this is needed for each language
 # If meta_description is not defined in front matter, it's created from (post / page) content,
 # if it has no content, this will be used for page description. It is also used in manifest.json
-meta_common_description: "どうも、ゲームデベロッパーのaudrNaです。"
+meta_common_description: "どうも、あうどるです！プログラミングが趣味です。"
 
 # contact options (side nav bottom and about page)
 # the order of the items will be shown as here.
 # comment to remove any contact item
 contacts:
-  - email: "audrna7@gmail.com"
-  - itchio: "audrna.itch.io"
-  - github: "audrNa"
+  - email: "audrnya@gmail.com"
+  - itchio: "audrnya.itch.io"
+  - github: "Audrnya"
   - youtube: "@audrNya"
   - twitter: "audrnana"
   - bluesky: "audr.bsky.social"

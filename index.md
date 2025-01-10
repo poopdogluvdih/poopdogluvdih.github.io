@@ -37,7 +37,7 @@ img: ":home-heading.jpg"
 #published: false
 ---
 
-# Hello, I'm `audrNa` !
+# Hello, I'm `Audrnya` !
 
 ![👋](:wave.svg){:width="16"} You can call me **Audr**. I'm a gamer and programmer!
 
