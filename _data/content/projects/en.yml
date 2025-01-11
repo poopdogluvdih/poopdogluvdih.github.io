@@ -25,6 +25,14 @@ page_data:
   list:
     # example
     - type: game
+      project_name: "miku's shitpost course"
+      project_excerpt: "im thinking miku miku o ii a i a o iii a i"
+      img: ":miku_shitpost_course_original.png"
+      img_title: "welcome to miku's shitpost course"
+      date: "2025-01-11"
+      url: "2025-01-11-Miku-Shitpost-Course"
+
+    - type: game
       project_name: "Voltaica"
       project_excerpt: "A robot explores a weird ass laboratory"
       img: ":voltaica.png"
