@@ -17,17 +17,19 @@ date: 2025-01-11 17:41:42 +0800
 <span data-align="center">私ミクミクo ii a i a o iii a i</span>
 <!-- outline-end -->
 
-![miku hatsune and friends](/assets/img/projects/miku_shitpost_course_original.png){:data-align="center"}
+![初音ミクと友達](/assets/img/projects/miku_shitpost_course_original.png){:data-align="center"}
 
-Please play at <https://audrnya.itch.io/miku-shitpost-course>{:target="_blank"}! 😁
+<https://audrnya.itch.io/miku-shitpost-course>{:target="_blank"}にプレイしてくださいね 😁
 
-### Game Description
+### ゲーム説明
 
-**miku's shitpost course** is an endless runner game but with <a href="https://www.youtube.com/watch?v=PEwCB_ci7nE&t=42s" target="_blank">Hatsune Miku</a> and random ahh obstacles. You move left (A) and right (D) to dodge the upcoming <a href="https://www.instagram.com/balltze/" target="_blank">Cheems</a>, slide down (S) to go under the <a href="https://arknights.wiki.gg/wiki/W" target="_blank">weiwaiweiwai girl</a>, and jump (W) to go over the other creatures.
+**『miku's shitpost course』**とは、初音ミクと色々な邪魔が追加されているエンドレスランナーゲームです。Cheemsさんの接近を左右（A / D）で動いて逃げて、ウェイワイウェイワイ女の下をスライドをして（S）、他のバケモノの上をジャンプします（W）。
 
-### Audr's Memo
+### Audrのメモ
 
-This is my 3rd ever released game project, my first ever 3D game, and my first ever collaboration with another developer, [NeonMocha](https://neonmocha.itch.io){:target="_blank"}! With the help of Mocha, we made this game together in only 2 weeks! This is also the first time I've worked with another programmer so I have learned basic GitHub practices and workflow to develop smoothly, and we had basically no problems working together! 🤝
+これは今までにリリースした4作目のゲームプロジェクトで、初めての3Dのゲーム、初めて他のプログラマーと一緒に共同です！[NeonMochaさん](https://neonmocha.itch.io){:target="_blank"}とこのゲームが2週間だけで開発しました！初めての共同なので、シンプルｎ
+
+> えっと・・・多分頭が爆発しそうだから、ひとまずやめます…やる気があって日本語が上手くなったら続けます、ごめんなさい…
 
 By the way, the game is somewhat inspired by the meme style of 🐱 [SlappyHappy2000's Uncanny Cat Golf](slappyhappy2000.itch.io/uncanny-cat-golf){:target="_blank"}. I basically threw my brain away while deciding how the game should look and just used random meme models I found on [Sketchfab](https://sketchfab.com/){:target="_blank"}. I think it's the easiest and most fun way to make the looks of a game lol. Also this time, I thought more about how to design the game to be fun, and I hope it did end up being fun for many people!
 
