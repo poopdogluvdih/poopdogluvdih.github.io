@@ -43,11 +43,11 @@ img: ":home-heading.jpg"
 
 ![🇯🇵](:japan.png){:width="16"}&nbsp;&nbsp;私はボカロと日本の音楽がとても大好きなので、日本語を勉強中です。まだ得意ではないけれど、頑張ります！
 
-![🎮](:gaming.svg){:width="16"} 好きなゲーム：アークナイツ、osu!standard、崩壊：スターレイル、CHUNITHM、maimai、プロジェクトセカイ、Phigros、vivid/stasis、Baba Is Youなど…
+![🎮](:gaming.svg){:width="16"} 好きなゲーム：アークナイツ、maimai、崩壊：スターレイル、CHUNITHM、プロジェクトセカイ、Phigros、osu!standard、vivid/stasis、Baba Is You など…
 
 ![🛠️](:wrench.svg){:width="16"} 色々作るためにプログラミングしていますが、楽しいのでゲームを作るのが好きです！（後で[プロジェクト](/ja/tabs/projects)を見てくださいね）
 
-![🤓](:nerdge.svg){:width="16"} 得意なスキルは一般的なプログラミング、Godot Engine、Pythonです。 また、C、JavaScript、Jekyll、SQL、Flask、Reactなど、様々な分野を少し勉強したこともあります。
+![🤓](:nerdge.svg){:width="16"} 得意なスキルは一般的なプログラミング、Godot Engine、Python です。 また、C、JavaScript、Jekyll、SQL、Flask、React など、様々な分野を少し勉強したこともあります。
 
 ![🚩](:flag.svg){:width="16"} 現在、独学でプログラミングとゲームデザイン(集中)が勉強しています。ただ、学校があるので進みが遅いです…
 
@@ -55,9 +55,7 @@ img: ":home-heading.jpg"
 
 [ヘッダーの絵：kieed](https://www.pixiv.net/en/artworks/118314218){:target="\_blank"}
 
-
 {%- comment -%}
-	Credits: https://github.com/googlefonts/noto-emoji
-	https://www.flaticon.com/free-icon/japan_33062
+Credits: https://github.com/googlefonts/noto-emoji
+https://www.flaticon.com/free-icon/japan_33062
 {%- endcomment -%}
-
