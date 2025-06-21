@@ -48,7 +48,7 @@ img: ":about.jpg"
 [男性](https://ja.wikipedia.org/wiki/%E7%94%B7%E6%80%A7){:style="color: var(--body-text-color) !important;"}
 
 - ![Uzbek](:Uzbekistan.png){:width="16"}
-[Kazakh](https://ja.wikipedia.org/wiki/%E5%9C%B0%E7%8D%84){:style="color: var(--body-text-color) !important;"}
+  [Uzbek](https://ja.wikipedia.org/wiki/%E5%9C%B0%E7%8D%84){:style="color: var(--body-text-color) !important;"}
 (![why](:why.png){:width="32"})
 
 - <i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
