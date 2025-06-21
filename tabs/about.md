@@ -47,12 +47,12 @@ My introduction can be found in the [Home page](/), but below is some personal i
 - <i class="fa fa-mars" aria-hidden="true"></i>&nbsp;
 [Male](https://en.wikipedia.org/wiki/Male){:style="color: var(--body-text-color) !important;"}
 
-- ![Philippines](:philippines.png){:width="16"}
-[Filipino](https://en.wikipedia.org/wiki/Hell){:style="color: var(--body-text-color) !important;"}
+- ![Uzbek](:philippines.png){:width="16"}
+  [Kazakh](https://en.wikipedia.org/wiki/Hell){:style="color: var(--body-text-color) !important;"}
 (![why](:why.png){:width="32"})
 
 - <i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
-Single
+Taken
 
 - <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;
 [〒 -99.9 Neptune St., Banana Village, Christmas Island, Kiribati](https://maps.app.goo.gl/5ksLJAGQHwkC4Toh6){:target="\_blank"}{:style="color: var(--body-text-color) !important;"}
@@ -73,7 +73,7 @@ Single
 [+1 949-468-2750](tel:+19494682750){:style="color: var(--body-text-color) !important;"}
 
 - <i class="fa fa-user" aria-hidden="true"></i>&nbsp;
-Full Name: 麤鬱 廳禰（あうどる）
+Full Name: Big T（poopoo dog）
 
 <hr>
 
