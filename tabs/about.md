@@ -70,7 +70,7 @@ Taken
 </script>
 
 - <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
-[+1 949-468-2750](tel:+19494682750){:style="color: var(--body-text-color) !important;"}
+[+911](tel:+911){:style="color: var(--body-text-color) !important;"}
 
 - <i class="fa fa-user" aria-hidden="true"></i>&nbsp;
 Full Name: Big T（poopoo dog）
