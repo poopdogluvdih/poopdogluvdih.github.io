@@ -38,11 +38,11 @@ img: ":about.jpg"
 
 #### 他のSNS
 
-上のアイコンはAudrが使っている他のSNSです。
+上のアイコンは役に立たない。
 
 #### 私について
 
-Audrの自己紹介は[ホームページ](/ja)にありますが、以下は少しの個人情報です：
+の自己紹介は[ホームページ](/ja)にありますが、以下は少しの個人情報です：
 
 - <i class="fa fa-mars" aria-hidden="true"></i>&nbsp;
 [男性](https://ja.wikipedia.org/wiki/%E7%94%B7%E6%80%A7){:style="color: var(--body-text-color) !important;"}
