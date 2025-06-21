@@ -37,18 +37,17 @@ img: ":home-heading.jpg"
 #published: false
 ---
 
-# Hello, I'm `Audrnya` !
+# Hello, I'm `Poopdog (yes, im called poopdog)` !
 
-![👋](:wave.svg){:width="16"} You can call me **Audr**. I'm a gamer and programmer!
+![👋](:wave.svg){:width="16"} You can call me **Poopdog**. I'm a gamer and programmer!
 
-![🎮](:gaming.svg){:width="16"} Favorite games: Arknights, maimai, Honkai: Star Rail, CHUNITHM, Project SEKAI, Phigros, osu!standard, vivid/stasis, Baba Is You, etc...
+![🎮](:gaming.svg){:width="16"} Favorite games: Roblox, Cod b02, FGO, HOI4, EU4, What remains of Edith Finch, R6S, Etc...
 
-![🛠️](:wrench.svg){:width="16"} I also code to make stuff but I like making games for fun! (Check out my [projects](/tabs/projects) later!)
+![🛠️](:wrench.svg){:width="16"} I also code to make stuff but I like making games for fun! 
 
-![🤓](:nerdge.svg){:width="16"} My best skills are general programming, Godot Engine, and Python. I also have some experience with various fields such as C, JavaScript, Jekyll, SQL, Flask, React, etc.
+![🤓](:nerdge.svg){:width="16"} My best skills are general programming, Animating, and Python. I also have some experience with various fields such as C++, JavaScript, Jekyll, SQL, Flask, React, etc.
 
-![🚩](:flag.svg){:width="16"} Currently studying programming and game design (more focus on this now) on my own, but school is slowing me down...
-
+![🚩](:flag.svg){:width="16"} Currently studying programming and game design, Aswell as Pyschics! I NEED that scholarship
 <hr>
 
 [Heading art by kieed](https://www.pixiv.net/en/artworks/118314218){:target="\_blank"}
