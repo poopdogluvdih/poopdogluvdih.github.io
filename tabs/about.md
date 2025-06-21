@@ -47,7 +47,7 @@ My introduction can be found in the [Home page](/), but below is some personal i
 - <i class="fa fa-mars" aria-hidden="true"></i>&nbsp;
 [Male](https://en.wikipedia.org/wiki/Male){:style="color: var(--body-text-color) !important;"}
 
-- ![Uzbek](:philippines.png){:width="16"}
+- ![Uzbek](:Uzbekistan.png){:width="16"}
   [Kazakh](https://en.wikipedia.org/wiki/Hell){:style="color: var(--body-text-color) !important;"}
 (![why](:why.png){:width="32"})
 
